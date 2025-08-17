@@ -1,4 +1,4 @@
-FROM nikolaik/python-nodejs:python3.13-nodejs22-slim as base
+FROM nikolaik/python-nodejs:python3.13-nodejs22-slim AS base
 WORKDIR /app
 RUN pip install mcpo uv mcp-server-fetch mcp-nixos
 
